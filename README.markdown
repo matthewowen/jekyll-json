@@ -6,6 +6,14 @@ Passed a YAML key, it'll return a JSON, combining the page specific YAML with an
 
 ## Usage
 
+Plonk jekyll_json.rb in your _plugins directory.
+
+Use the tag like this:
+
+    {% yaml_to_json yaml_key_goes_here %}
+
+## An example
+
 In _config.yml:
 
     mapping:
