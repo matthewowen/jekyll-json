@@ -26,11 +26,13 @@ In a page's front matter:
             height: 500
 
 In your layout:
+
     <script type="text/javascript">
         var some_object = {% yaml_to_json mapping %};
     </script>
 
-Returns
+Returns:
+
     <script type="text/javascript">
         var some_object = {
             "longitude":0,
