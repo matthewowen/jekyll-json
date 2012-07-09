@@ -17,7 +17,7 @@ Use the tag like this:
 In _config.yml:
 
     mapping:
-        provider: google_static
+        provider: google_js
         api_key: 123456
         zoom: 10
         dimensions:
